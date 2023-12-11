@@ -1,0 +1,306 @@
+{
+    padding: 0;
+    margin:0;
+}
+
+.head{ 
+    background-color:#FFF;
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    border-bottom: solid rgb(90, 21, 19) 8px;
+}
+
+#HM{
+    font-size: large;
+    font-family:  'Inter', sans-serif;
+    color: rgb(90, 21, 19);
+    width: 87px;
+}
+
+#CTT{
+    font-size: large;
+    font-family:  'Inter', sans-serif;
+    color: rgb(90, 21, 19);
+    margin-left: 21%;
+    width: 120px;
+}
+
+#PDT{
+    font-size: large;
+    font-family:  'Inter', Bree Serif;
+    color: rgb(90, 21, 19);
+    margin-left: 30%;
+    width: 135px;
+}
+
+.corpo, .corpoContato, body{
+    background-color: #ffd43f;
+    height: 87vb;
+    width: 100%;
+}
+
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    margin-left: 48%;
+
+}
+
+.pesquisa input{
+    border-radius: 15px;
+    width: 200px;
+    background-color: #c8c8c8;
+    
+}
+
+#lupa{
+    background: url("./lupa.png") no-repeat right / 1.3em;
+    padding-left: 1.2em;
+    background-color: #c8c8c8;
+    
+}
+
+.nacionalidade{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.carrinhoDeCompras{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.carrinhoDeCompras{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.logo{ 
+    position: absolute;
+    right: 42%;
+    top: 5%;
+}
+
+.barradireita{
+        position: absolute;
+        right: 0%;
+        bottom: -0.5%;
+}
+.barraesquerda{
+        position: absolute;
+        left: 0%;
+        bottom: -0.5%;
+}
+
+.imghome{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+.slid1{
+    width:900px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.slid2{
+    width:400px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.slid3{
+    width: 700px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.slid4{
+    width:500px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.slid5{
+    width:500px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.slid6{
+    width: 500px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 50px;
+}
+
+.contactSection {
+    /* width: 600px; */
+    padding: 15px;
+    background-color: #ffeba4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 195px;
+    left: 37%;
+}
+
+.contactSection h2 {
+    color: #343a40;
+}
+
+/* Formulário */
+.contactForm {
+    display: grid;
+    gap: 40px;
+}
+
+.contactForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 5px;
+    border: 4px solid #ced4da;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#messageInput {
+    width: 100%;
+    padding: 5px;
+    border: 4px solid #ced4da;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sendMessageBtn {
+    background-color: #ffd43f;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.contactText {
+    margin-left: 29%;
+    font-style: italic;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* CSS - Tela de Login */
+.loginBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffd43f;
+}
+
+.loginForm {
+    width: 350px;
+    padding
+};  
+
+.faleconosco {
+    margin-left: 29%;
+    font-style: italic;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* css - telalogin */
+
+.corpo12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffd43f;
+}
+
+form {
+    width: 350px;
+    padding: 70px;
+    background-color: #ffe175;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem; 
+    line-height: 1.5; 
+    color: #495057;
+    background-color: #fff; */
+    background-clip: padding-box; 
+    border: 2px solid #000000;
+    border-radius: 0.25rem; 
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
+}
+
+.form-text {
+    margin-top: 0,23rem;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: #ffdf4f;
+    border-color: #ffa600;
+}
+
+.btn-primary:hover {
+    color: #000000;
+    background-color: #ffa600;
+    border-color: #ffdf4f;
+}
+
+.logologin {
+    background-color:#ffe175;
+    display: block;
+    margin: 0 auto;
+}
+
+.lembreme{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
